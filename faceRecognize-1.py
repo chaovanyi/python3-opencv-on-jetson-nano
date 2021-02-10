@@ -17,6 +17,6 @@ cv2.imshow('myWindow'.image)
 cv2.moveWindow('myWindow',0,0)
 
 
-if cv2.waitKey(0) == ord('q'):
+if cv2.waitKey(1) == ord('q'):
   break
 cv2.destroyAllWindow()
